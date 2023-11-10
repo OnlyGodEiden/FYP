@@ -1,0 +1,11 @@
+::ng-deep .fullscreen {
+  height: 80vh;
+}
+
+powerbi-report.fullscreen {
+  height: 80vh;
+}
+
+:host(.fullscreen) {
+  height: 80vh;
+}
