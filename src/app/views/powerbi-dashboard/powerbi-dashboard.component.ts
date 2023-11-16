@@ -51,8 +51,8 @@ export class PowerbiDashboardComponent implements OnInit{
   embedReport(){
      this.reportConfig = {
         ...this.reportConfig,
-         accessToken: 'your token',
-         id: 'your reportId',
+         accessToken: 'token',
+         id: 'reportId',
          embedUrl: this.reportConfig.embedUrl,
       };
   }
